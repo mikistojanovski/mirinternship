@@ -1,0 +1,52 @@
+.container1 {
+    top: 0%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.container2 {
+    top: 33%;
+    position: relative;
+    text-align: center;
+    color: white;
+    size: 33%;
+    color: black;
+}
+
+.container3 {
+    top: 66%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered1 {
+    background-color: black;
+    padding: 55px;
+    display: table;
+    /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto;
+    /* keep the table centered */
+    color: white;
+    font-size: 2cm;
+}
+
+.centered2 {
+
+    font-size: 2cm;
+}
+
+.centered3 {
+
+    color: white;
+    font-size: 3cm;
+}
